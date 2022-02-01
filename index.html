@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PUNCH HABER</title>
+
+    <!--Fontawesome ikon bağlantısı-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Style.css dosya bağlantısı-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- BootStrap  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <header>
+
+
+        <div class="website-header">
+            <!--logo-->
+            <img src="resimler/logo.png">
+            <h1>PUNCH HABER</h1>
+
+            <!--sosyal medya bağlantıları-->
+            <div class="sosyal-ikonlar">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fas fa-rss"></i>
+            </div>
+
+        </div>
+
+
+
+        <nav class="navbar navbar-expand-md ">
+
+            <!-- toggler/katlanabilir buton -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar bağlantıları -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ANASAYFA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">POLİTİK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DÜNYA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">İŞ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SEYAHAT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TEKNOLOJİ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SPOR</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+
+        <!--son dakika kısmı-->
+        <div class="son-dakika-kismi">
+            <span id="sdtext">Son Dakika</span>
+            <!--Fare son dakika haberlerinin üstüne gelince kaymayı durdur, gidince devam et-->
+            <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+
+                <a href="https://www.haberler.com/bm-guvenlik-konseyi-nde-rusya-ve-abd-arasinda-sert-14704751-haberi/" class="son-dakika">
+                    <p class="sdzaman">1 Şub 2022</p>BM Güvenlik Konseyi'nde Rusya ve ABD arasında sert Ukrayna tartışması
+                </a>
+
+                <a href="https://www.sondakika.com/dunya/haber-beyaz-saray-sozcusu-acikladi-rusya-ukrayna-yi-14704716/" class="son-dakika">
+                    <p class="sdzaman">1 Şub 2022</p>Rusya, Ukrayna'yı her an işgal edebilir
+                </a>
+
+                <a href="https://www.haberturk.com/son-dakika-anne-ve-kizi-yemek-masasinda-olduruldu-3331327" class="son-dakika">
+                    <p class="sdzaman">31 Oca 2022</p>Anne ve kızı yemek masasında öldürüldü
+                </a>
+            </marquee>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+    <main>
+        <article id="populer-haberler">
+            <div id="onecikan">
+                <h2>ÖNE ÇIKANLAR</h2>
+                <section class="populer-haberler-carousel">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+
+
+                        <div class="carousel-inner">
+
+
+                            <div class="carousel-item active">
+                                <a href="https://wannart.com/icerik/33692-mucit-oldugunu-saniyordu-kasifmis-meger">
+                                    <img class="d-block w-100" src="resimler/karosel1.jpg" alt="İlk Slayt"></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <!--karoseldeki haberin açıklama kısmı-->
+                                    <h5>"Mucit Olduğunu Sanıyordu, Kâşifmiş Meğer."</h5>
+                                    <p>28 Oca 2022</p>
+                                </div>
+                            </div>
+
+
+                            <div class="carousel-item">
+                                <a href="https://www.haberler.com/son-dakika-cumhurbaskani-erdogan-4-onemli-14704183-haberi/">
+                                    <img class="d-block w-100" src="resimler/karosel2.jpg" alt="İkinci Slayt"></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <!--karoseldeki haberin açıklama kısmı-->
+                                    <h5>Cumhurbaşkanı Erdoğan'dan enflasyon mesajı: Artışın kamburunu bir müddet sırtımızda taşımak durumunda kalacağız </h5>
+                                    <p>31 Oca 2022</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://tr.euronews.com/2022/01/31/rusya-n-n-engelleme-girisimine-kars-n-bm-de-ukrayna-gundemli-toplant">
+                                    <img class="d-block w-100" src="resimler/karosel3.jpg" alt="Üçüncü Slayt"></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <!--karoseldeki haberin açıklama kısmı-->
+                                    <h5>BM Güvenlik Konseyi'nde Ukrayna gündemli gergin toplantı </h5>
+                                    <p>31 Oca 2022</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Önceki</span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Sonraki</span>
+                        </a>
+                    </div>
+                </section>
+
+            </div>
+
+
+            <div id="enson">
+
+                <h2>EN SON</h2>
+
+                <section class="haberler">
+                    <div class="haberler-container">
+                        <a href="https://www.bbc.com/turkce/haberler-dunya-60203124">
+                            <img src="resimler/karoselyenizelanda.png"></a>
+                        <p class="carousel-text">Ülkesi Yeni Zelanda'ya alınmayan hamile gazeteci, Taliban'dan yardım istedi</p>
+                    </div>
+                </section>
+
+
+                <section class="haberler">
+                    <div class="haberler-container">
+                        <a href="https://www.ensonhaber.com/kralspor/diger-spor-haberleri/yastik-savasi-spor-oldu">
+                            <img src="resimler/karoselyastık.jpg"></a>
+                        <p class="carousel-text">Yastık savaşı spor oldu</p>
+                    </div>
+                </section>
+
+            </div>
+
+
+            <div id="bizim-sectiklerimiz">
+
+
+                <h2>BİZİM SEÇTİKLERİMİZ</h2>
+                <section class="haberler">
+                    <div class="haberler-container">
+                        <a href="https://wannart.com/icerik/1867-utopyalarin-mimari-agackakan">
+                            <img src="resimler/karoselagackakan.jpg"></a>
+                        <p class="carousel-text">Ütopyaların Mimarı: Ağaçkakan </p>
+                    </div>
+                </section>
+
+
+                <section class="haberler">
+                    <div class="haberler-container">
+                        <a href="https://tr.sputniknews.com/20220131/gta-6-piyasaya-beklenenden-erken-sunulabilir-1053303646.html">
+                            <img src="resimler/karoselgta.jpg"></a>
+                        <p class="carousel-text">GTA 6 piyasaya beklenenden erken çıkabilir</p>
+                    </div>
+                </section>
+
+
+            </div>
+        </article>
+
+
+        <section class="dahacok-haber">
+
+
+            <div class="haberler-kısmı">
+                <article class="world">
+                    <h2>DÜNYA</h2>
+                    <a href="https://www.hurriyet.com.tr/dunya/putin-ve-macrondan-kritik-gorusme-41994368">
+                        <img src="resimler/macron.webp"></a>
+                    <h3>Putin ve Macron'dan kritik görüşme</h3>
+                    <p>Rusya Devlet Başkanı Vladimir Putin ile Fransa Cumhurbaşkanı Emanuel Macron, gerçekleştirdikleri telefon görüşmesinde Rusya'nın ABD ve NATO'ya teklif ettiği güvenlik garantilerini ele aldı. […]</p>
+
+                </article>
+                <article class="sport">
+                    <h2>SPOR</h2>
+                    <a href="https://www.sporx.com/ilay-yoruk-antalya-da-sampiyon-SXHBQ959743SXQ">
+                        <img src="resimler/tenis.jpg"></a>
+                    <h3>İlay Yörük, Antalya'da Şampiyon!</h3>
+                    <p>Antalya'da düzenlenen toplamda 15 bin dolar para ödüllü W15 Antalya Series turnuvasında mücadele eden milli tenisçi İlay Yörük, şampiyon oldu. […]</p>
+                </article>
+            </div>
+
+
+
+            <aside>
+                <h4>SON</h4>
+
+                <div class="son-haberler">
+                    <a href="http://www.piramithaber.com/saglik/mide-kanseri-belirtileri-ve-tedavisi-h52845.html">
+                        <img src="resimler/mide.jpg"></a>
+                    <p>Mide Kanseri Belirtileri ve Tedavisi</p>
+                </div>
+
+
+                <div class="son-haberler">
+                    <a href="https://bianet.org/bianet/insan-haklari/257042-turkiye-den-hollanda-ya-ilticalar-artarak-suruyor">
+                        <img src="resimler/hollanda.jpg"></a>
+                    <p>Türkiye'den Hollanda'ya ilticalar artarak sürüyor</p>
+                </div>
+
+
+                <div class="son-haberler">
+                    <a href="https://www.habervesaire.com/psikiyatrik-muayene-suresi/">
+                        <img src="resimler/psikoloji.jpg"></a>
+                    <p>Psikiyatrik muayeneye zaman yok</p>
+                </div>
+
+
+                <div class="son-haberler">
+                    <a href="https://www.muhalifgazete.com/gundem/z-kusagi-oyunu-kime-verecek-iste-anket-sonucu-1h">
+                        <img src="resimler/zkusagi.jpg"></a>
+                    <p>Z Kuşağı Oyunu Kime Verecek? İşte Anket Sonucu!</p>
+                </div>
+
+
+                <div class="son-haberler">
+                    <a href="https://wannart.com/icerik/33390-microsoft-activision-blizzardi-resmi-olarak-satin-aliyor">
+                        <img src="resimler/blizzard.jpg"></a>
+                    <p>Microsoft, Activision Blizzard'ı Resmî Olarak Satın Alıyor!</p>
+                </div>
+
+            </aside>
+        </section>
+    </main>
+
+
+
+
+
+
+    <footer>
+
+        <div class="sosyal-linkler">
+
+
+            <section class="hakkinda">
+                <h2>Hakkında</h2>
+                <p>Punch haber 2022 yılında, en doğru ve kısmen taraflı haberleri en kısa sürede okuyucuyla buluşturmak için kurulmuş bir organizasyondur. Kâr amacı gütmez.</p>
+                <div class="sosyal-ikonlar-footer">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-google-plus-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fas fa-rss-square"></i>
+                    <i class="fab fa-youtube-square"></i>
+                    <i class="fab fa-pinterest-square"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </section>
+
+
+            <section class="Instagram">
+                <h2>Instagram</h2>
+                <img src="resimler/insta2.jpg">
+                <img src="resimler/insta3.jpg">
+                <img src="resimler/insta4.jpg">
+                <img src="resimler/insta5.jpg">
+                <img src="resimler/insta2.jpg">
+                <img src="resimler/insta3.jpg">
+                <img src="resimler/insta4.jpg">
+                <img src="resimler/insta5.jpg">
+                <img src="resimler/insta2.jpg">
+                <button type="button" class="footer-butonlari">Instagram'da Görüntüle</button>
+            </section>
+
+
+            <section class="Subscribe">
+                <h2>Punch Haber'e Abone Ol</h2>
+                <p>Abone olarak yeni gönderilerden haberdar olmak için e-posta adresini gir</p>
+                <input type="email" placeholder="E-posta Adresi">
+                <button type="button" class="footer-butonlari">Abone Ol</button>
+            </section>
+        </div>
+
+
+
+        <div class="copyright">Copyright © 2022 Punch Haber. Designed by Eren Keskinoğlu</div>
+    </footer>
+
+</body>
+
+</html>

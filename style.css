@@ -1,0 +1,336 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+header {
+    background-color: blueviolet;
+    color: indigo;
+}
+
+.website-header {
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.website-header img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0 30px;
+}
+
+.website-header h1 {
+    margin: auto 0;
+}
+
+.sosyal-ikonlar {
+    text-align: right;
+    flex-grow: 1;
+}
+
+.sosyal-ikonlar i {
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: blueviolet;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    margin: 20px 0 0 0;
+}
+
+.navbar-nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.navbar-nav li a:hover {
+    color: #e08b6c;
+}
+
+.son-dakika-kismi {
+    padding: 0 30px 0 60px;
+    display: flex;
+}
+
+#sdtext {
+    width: 200px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #e08b6c;
+    font-weight: 600;
+    margin: auto 0;
+}
+
+.son-dakika {
+    padding: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.son-dakika:hover,
+.sosyal-ikonlar i:hover {
+    color: #e08b6c;
+    cursor: pointer;
+}
+
+.sdzaman {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+#populer-haberler {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 5%;
+}
+
+#populer-haberler h2 {
+    margin: 0;
+    padding: 5px;
+    color: #fff;
+}
+
+#onecikan h2 {
+    background-color: black;
+}
+
+#enson h2 {
+    background-color: darkred;
+}
+
+#bizim-sectiklerimiz h2 {
+    background-color: darkblue;
+}
+
+#onecikan {
+    flex: 2;
+}
+
+#enson,
+#bizim-sectiklerimiz {
+    flex: 1;
+}
+
+#populer-haberler img {
+    width: 100%;
+    filter: brightness(0.7);
+    transition-duration: 500ms;
+}
+
+.carousel,
+.haberler-container {
+    position: relative;
+}
+
+.carousel-text {
+    position: absolute;
+    word-wrap: normal;
+    bottom: 5px;
+    z-index: 2;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 0 10px;
+    transition-duration: 500ms;
+}
+
+.haberler-container .carousel-text {
+    font-size: 18px;
+}
+
+.carousel-date {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+}
+
+kısmı {
+    cursor: pointer;
+}
+
+.haberler-container:hover>.carousel-text {
+    bottom: 10px;
+}
+
+.haberler-container:hover>img {
+    filter: brightness(0.4);
+}
+
+.dahacok-haber {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.haberler-kısmı {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70%;
+    justify-content: space-between;
+}
+
+.world h2 {
+    background-color: #b2175b;
+}
+
+.sport h2 {
+    background-color: #3c1b75;
+}
+
+.world h2,
+.sport h2 {
+    margin: 10px 0 0 0;
+    padding: 0 10px;
+}
+
+.dahacok-haber img {
+    width: 100%;
+    height: 250px;
+}
+
+.world,
+.sport {
+    flex-basis: 45%;
+}
+
+aside {
+    width: 90%;
+    padding: 10px;
+    flex-basis: 25%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: auto 0;
+}
+
+p {
+    text-align: justify;
+}
+
+.son-haberler {
+    display: flex;
+}
+
+.son-haberler img {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.son-haberler p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.sosyal-linkler {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: space-between;
+}
+
+.sosyal-linkler kısmı {
+    flex-basis: 30%;
+}
+
+.sosyal-ikonlar-footer i {
+    font-size: 37px;
+    padding: 5px;
+}
+
+.instagram img {
+    padding: 5px;
+}
+
+.footer-butonlari {
+    display: block;
+    border: 1px solid #2196f3;
+    color: #2196f3;
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer-butonlari:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #2196f3;
+}
+
+.copyright {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .son-dakika-kısmı {
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    #onecikan {
+        flex: auto;
+    }
+    .haberler-kısmı,
+    aside,
+    .haberler-kısmı article,
+    .sosyal-linkler kısmı {
+        flex-basis: 100%;
+    }
+    aside {
+        border-width: 0;
+    }
+    .sosyal-linkler kısmı {
+        margin-top: 20px;
+    }
+    .website-header img {
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+    }
+    .website-header h1 {
+        font-size: 15px;
+    }
+    .sosyal-ikonlar {
+        flex-basis: 100%;
+    }
+    .navbar-collapse {
+        background-color: black;
+        z-index: 16;
+    }
+    .navbar-toggler-icon {
+        background-image: url(images/menu.jpg);
+        z-index: 16;
+    }
+}
